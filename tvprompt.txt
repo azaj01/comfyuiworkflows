@@ -1,0 +1,11 @@
+I want you to speed up my smart TV by clearing out the clutter. Work step by step and check with me before acting.
+
+Start by asking me for my TV brand and model, and which apps I actually use on it.
+
+1. Find the TV on my Wi-Fi and connect to it over ADB. If I need to tap anything on the TV screen, tell me exactly what.
+2. Before touching anything, check the free memory. Then list every installed app in plain English, in three groups: safe to switch off, required by the TV, and apps I use.
+3. Get my approval before each change. Disable apps, never uninstall them. Keep a record of every change along with the command that reverses it.
+4. Never disable any of these: Google Play services (com.google.android.gms), the Google Play Store, Settings, System UI, setup or provisioning apps, the keyboard, Bluetooth, my HDMI inputs, the TV input and tuner framework, or anything else the TV needs to boot. If you are unsure, leave it enabled.
+5. Build me a minimal home screen yourself, with a big clock, one row for my apps, and one row for the Play Store, HDMI inputs and Settings. No ads and no suggested content. Do not download anything from third-party repos. Ask me before installing it, and make sure I can switch back to the original home screen.
+6. Turn off animations and the screensaver, and set the TV to sleep after 5 minutes.
+7. After the last change, wait 30 seconds, restart the TV once, and confirm it boots normally. Then show me the free memory before and after.
